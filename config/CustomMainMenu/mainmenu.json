@@ -1,0 +1,215 @@
+{
+    "images":
+    {
+        "title":
+        {
+            "image" : "textures:aaa/gui/menu.jpg",
+            "posX" : -345,
+            "posY" : 0,
+            "width" : 700,
+            "height" : 360,          
+            "alignment" : "top_center"
+        }
+    },
+    
+    "buttons":
+    {
+        "singleplayer":
+        {
+            "text" : "menu.singleplayer",
+            "posX" : -100,
+            "posY" : 172,
+            "width" : 200,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+        
+        "multiplayer":
+        {
+            "text" : "menu.multiplayer",
+            "posX" : -100,
+            "posY" : 196,
+            "width" : 200,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+        
+        "mods":
+        {
+            "text" : "Mods",
+            "posX" : -100,
+            "posY" : 220,
+            "width" : 200,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },
+            
+        "options":
+        {
+            "text" : "menu.options",
+            "posX" : -100,
+            "posY" : 244,
+            "width" : 98,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+        
+        "quit":
+        {
+            "text" : "menu.quit",
+            "posX" : 2,
+            "posY" : 244,
+            "width" : 98,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        },
+        
+        "language":
+        {
+            "text" : "",
+            "posX" : -124,
+            "posY" : 244,
+            "width" : 20,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "languages"
+            }
+        },
+        
+        "refresh":
+        {
+            "text" : "",
+            "posX" : 105,
+            "posY" : 244,
+            "width" : 20,
+            "height" : 20,
+            "texture" : "custommainmenu:textures/gui/buttons.png",
+            "action" : 
+            {
+                "type" : "refresh"
+            }
+        }
+    },
+    
+    "texts":
+    {
+        "mojang":
+        {
+            "text" : "Copyright Mojang AB. Do not distribute!",
+            "posX" : -197,
+            "posY" : -10,
+            "color" : -1,
+            "alignment" : "bottom_right"
+        },
+		
+        "Bug Report": {
+            "text": "report a bug",
+            "posX": -67,
+            "posY": -30,
+			"color" : 2263842,
+            "alignment" : "bottom_right",
+            "action" : {
+                "type" : "openLink",
+                "link" : "https://minecraft.curseforge.com/projects/endercraft-1/issues"
+            }
+        },
+		
+		"wiki": {
+            "text": "wiki",
+            "posX": -16,
+            "posY": -40,
+			"color" : 2263842,
+            "alignment" : "bottom_right",
+            "action" : {
+                "type" : "openLink",
+                "link" : "https://minecraft.curseforge.com/projects/endercraft-1/pages"
+            }
+        },
+		
+        "MADEBY":
+        {
+            "text" : "Made By ENDERZOMBI102!",
+            "posX" : -123,
+            "posY" : -20,
+            "color" : -1,
+            "alignment" : "bottom_right",
+			"action" : {
+                "type" : "openLink",
+                "link" : "https://minecraft.curseforge.com/members/enderzombi102"
+            }
+        },
+
+        "ENDERCRAFT":
+        {
+            "text" : "ENDERCRAFT V. 2.5.5",
+            "posX" : 2,
+            "posY" : -70,
+            "color" : -256,
+            "alignment" : "bottom_left",
+			"action" : {
+                "type" : "openLink",
+                "link" : "https://minecraft.curseforge.com/projects/endercraft-1"
+            }
+          },
+		
+		"Welcome":
+        {
+            "text" : "Welcome #username#!",
+            "posX" : 2,
+            "posY" : -60,
+            "color" : -1,
+            "alignment" : "bottom_left"
+          },
+        
+        "fml":
+        {
+            "text" : "",
+            "posX" : 2,
+            "posY" : -50,
+            "color" : -1,
+            "alignment" : "bottom_left"
+        }
+    },
+    
+    "other":
+    {
+        "splash-text":
+        {
+            "posX" : 250,
+            "posY" : 100,
+            "color" : -256,
+            "alignment" : "top_center",
+            "texts" : "file:minecraft:texts/splashes.txt"
+        },
+        
+        "panorama":
+        {
+            "images" : "minecraft:textures/gui/title/background/panorama_%c.png",
+            "animate" : true,
+            "animationSpeed" : 1,
+            "blur" : true,
+            "gradient" : true
+        }
+    }
+}

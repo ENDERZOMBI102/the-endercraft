@@ -1,0 +1,5 @@
+Hello, $PLAYER$!
+Welcome to ENDERCRAFT 1!
+Remember the night is very hard at the start!
+To obtain wood you need to mine leaves for sticks!
+Stay determinated to survive!

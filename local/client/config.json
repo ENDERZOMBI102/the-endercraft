@@ -1,0 +1,10 @@
+{
+  "ftbl": {
+    "item_ore_names": false,
+    "item_reg_names": false,
+    "notifications": "screen",
+    "player_options_shortcut": false,
+    "reload_client_cmd": "reloadc"
+  },
+  "sidebar_buttons": {}
+}

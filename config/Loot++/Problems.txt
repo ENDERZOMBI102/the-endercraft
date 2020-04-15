@@ -1,0 +1,5 @@
+The following problems were encountered while loading the config files:
+entity_drops.cfg 'removing' #1: The following block or item doesn't seem to exist: '<magicalcrops:5ZivicioEssence>'.
+
+entity_drops.cfg 'removing' #2: The following block or item doesn't seem to exist: '<ExtraUtilities:divisionSigil>'.
+
